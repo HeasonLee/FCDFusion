@@ -18,12 +18,11 @@ Go into the directory "/FCDFusion":
 
 `cd FCDFusion`
 
-## Fuse image pairs
+## Fuse image pairs using RGB, YIQ, HSV and FCDFusion methods
 1. Put visible images and corresponding infrared images into "/input/visible" and "/input/infrared", respectively. The two paired input images should in the same shape and has the same name like "xxx.jpg". You can change codes in "fuse.py" to change the available image type.
 2. Run the fusion methods: `python fuse.py`
 3. Fusion results of RGB, YIQ, HSV and FCDFusion methods will be saved in "/output/<method name>".
 
 - 6 pairs of test images are already in "/input/visible" and "/input/infrared". You can find more test image pairs in VIFB or other datasets.
 
-## Compute color deviation metric
-
+## Compute color deviation metric of fused images
