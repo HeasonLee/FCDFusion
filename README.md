@@ -27,8 +27,7 @@ Go into the directory "/FCDFusion":
 
 ## Compute color deviation metric of fused images
 1. Put visible images and corresponding fused images into "/input/visible" and "/output/\<method name\>", respectively. The two paired images should be in the same shape and has the same name like "xxx.jpg". You can change codes in "color_deviation.py" to change the available image type.
-2. You can change this line in "color_deviation.py" to select methods to be evaluated:
-   `for method in ['RGB', 'YIQ', 'HSV', 'CNN', 'MST-SR', 'PIAFusion', 'SeAFusion', 'FCDFusion']:`
+2. You can change this line in "color_deviation.py" to select methods to be evaluated: `for method in ['RGB', 'YIQ', 'HSV', 'CNN', 'MST-SR', 'PIAFusion', 'SeAFusion', 'FCDFusion']:`
 4. Run the script: `python color_deviation.py`
 5. Color deviation of each fused image and the average value will be shown in the screen and saved in "/output/color_deviation_values.txt".
 
