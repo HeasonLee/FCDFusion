@@ -26,3 +26,8 @@ Go into the directory "/FCDFusion":
 - 6 pairs of test images are already in "/input/visible" and "/input/infrared". You can find more test image pairs in VIFB or other datasets.
 
 ## Compute color deviation metric of fused images
+1. Put visible images and corresponding fused images into "/input/visible" and "/output/<method name>", respectively. The two paired input images should in the same shape and has the same name like "xxx.jpg". You can change codes in "color_deviation.py" to change the available image type.
+2. Run the script: `python color_deviation.py`
+3. Color deviation of each fused image and the average value will be shown in the screen and saved in "/output/color_deviation_values.txt".
+
+- You can find more metrics in VIFB.
