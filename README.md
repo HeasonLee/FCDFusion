@@ -1,5 +1,5 @@
 # FCDFusion
-A fast and color-preserving fusion method for visible and infrared image pairs, and a metric called color deviation.
+We propose a fast and color-preserving fusion method for visible and infrared image pairs, and a metric called color deviation.
 
 This is the Python implementation of the paper "FCDFusion: A fast fusion method for visible and infrared image pairs with little color deviation".
 
