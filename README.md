@@ -1,5 +1,5 @@
 # FCDFusion
-A fast and color-reserved fusion method for visible and infrared image pairs, and a metric called color deviation.
+A fast and color-preserving fusion method for visible and infrared image pairs, and a metric called color deviation.
 This is the Python implementation of the paper "FCDFusion: A fast fusion method for visible and infrared image pairs with little color deviation".
 When the paper is available in Computational Visual Media 2023, a link will be provided here.
 
@@ -30,4 +30,4 @@ Go into the directory "/FCDFusion":
 2. Run the script: `python color_deviation.py`
 3. Color deviation of each fused image and the average value will be shown in the screen and saved in "/output/color_deviation_values.txt".
 
-- You can find more metrics in VIFB.
+- Color deviation is the proposed metric that measures color-preserving ability of a fusion method. You can find more metrics in VIFB.
