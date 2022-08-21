@@ -26,7 +26,7 @@ Go into the directory "/FCDFusion":
 2. Run the fusion methods: `python fuse.py`
 3. Fusion results will be saved in "/output/\<method name\>".
 
-- 6 pairs of test images are already in "/input/visible" and "/input/infrared". You can find more test image pairs in VIFB or other datasets.
+- 6 pairs of test images selected from VIFB are already in "/input/visible" and "/input/infrared". You can find more test image pairs in VIFB or other datasets.
 
 ## Compute color deviation metrics of fused images
 1. Put visible images and corresponding fused images into "/input/visible" and "/output/\<method name\>", respectively. The two paired images should be in the same shape and has the same name like "xxx.jpg". You can change codes in "color_deviation.py" to change the available image type.
