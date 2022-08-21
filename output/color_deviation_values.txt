@@ -1,0 +1,72 @@
+Computing color deviation of method RGB...
+./output/RGB\carLight.jpg : 0.019130700416299325
+./output/RGB\carShadow.jpg : 0.08587713080801342
+./output/RGB\elecbike.jpg : 0.009723103037078774
+./output/RGB\fight.jpg : 0.06542218890537371
+./output/RGB\manlight.jpg : 0.023501350008976362
+./output/RGB\peopleShadow.jpg : 0.024396130281369315
+Average: 0.03800843390951848
+
+Computing color deviation of method YIQ...
+./output/YIQ\carLight.jpg : 0.015398996232877554
+./output/YIQ\carShadow.jpg : 0.04592737983402911
+./output/YIQ\elecbike.jpg : 0.005176101351289951
+./output/YIQ\fight.jpg : 0.02672141806656692
+./output/YIQ\manlight.jpg : 0.018236381348703715
+./output/YIQ\peopleShadow.jpg : 0.03297478609059434
+Average: 0.024072510487343598
+
+Computing color deviation of method HSV...
+./output/HSV\carLight.jpg : 0.0068887928684792325
+./output/HSV\carShadow.jpg : 0.009148908111223642
+./output/HSV\elecbike.jpg : 0.005256633999868888
+./output/HSV\fight.jpg : 0.010771165353185475
+./output/HSV\manlight.jpg : 0.011070408134511277
+./output/HSV\peopleShadow.jpg : 0.013287392866709456
+Average: 0.009403883555662995
+
+Computing color deviation of method CNN...
+./output/CNN\carLight.jpg : 0.008181005035906087
+./output/CNN\carShadow.jpg : 0.1045615592858625
+./output/CNN\elecbike.jpg : 0.00249361873591793
+./output/CNN\fight.jpg : 0.09190683116484057
+./output/CNN\manlight.jpg : 0.006699101936278877
+./output/CNN\peopleShadow.jpg : 0.06969348343885674
+Average: 0.04725593326627711
+
+Computing color deviation of method MST-SR...
+./output/MST-SR\carLight.jpg : 0.016918608727175755
+./output/MST-SR\carShadow.jpg : 0.14217181100414636
+./output/MST-SR\elecbike.jpg : 0.0024047436471064196
+./output/MST-SR\fight.jpg : 0.09361762094710854
+./output/MST-SR\manlight.jpg : 0.005829884924742591
+./output/MST-SR\peopleShadow.jpg : 0.11640531856818698
+Average: 0.06289133130307777
+
+Computing color deviation of method PIAFusion...
+./output/PIAFusion\carLight.jpg : 0.015812130038249352
+./output/PIAFusion\carShadow.jpg : 0.060412903469282124
+./output/PIAFusion\elecbike.jpg : 0.0052241506496902975
+./output/PIAFusion\fight.jpg : 0.0371820228256434
+./output/PIAFusion\manlight.jpg : 0.01819830926093452
+./output/PIAFusion\peopleShadow.jpg : 0.011479819608245179
+Average: 0.024718222642007476
+
+Computing color deviation of method SeAFusion...
+./output/SeAFusion\carLight.jpg : 0.016608237424526245
+./output/SeAFusion\carShadow.jpg : 0.05873144655107777
+./output/SeAFusion\elecbike.jpg : 0.006146101674774558
+./output/SeAFusion\fight.jpg : 0.03822622861871726
+./output/SeAFusion\manlight.jpg : 0.01901263524596744
+./output/SeAFusion\peopleShadow.jpg : 0.011788840072860265
+Average: 0.025085581597987256
+
+Computing color deviation of method FCDFusion...
+./output/FCDFusion\carLight.jpg : 0.006462944294177563
+./output/FCDFusion\carShadow.jpg : 0.01001565607942696
+./output/FCDFusion\elecbike.jpg : 0.0037456441148385235
+./output/FCDFusion\fight.jpg : 0.01307061351110426
+./output/FCDFusion\manlight.jpg : 0.009921357418373218
+./output/FCDFusion\peopleShadow.jpg : 0.015065005671941651
+Average: 0.009713536848310361
+
