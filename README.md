@@ -27,6 +27,7 @@ Go into the directory "/FCDFusion":
 3. Fusion results will be saved in "/output/\<method name\>".
 
 - 6 pairs of test images selected from VIFB are already in "/input/visible" and "/input/infrared". You can find more test image pairs in VIFB or other datasets.
+- FCDFusion is the proposed method. RGB, YIQ and HSV are 3 fast and simple methods for comparison. CNN and MST-SR are 2 methods from VIFB for comparison. PIAFusion  and SeAFusion are 2 new methods from Information Fusion 2022 for comparison. You can find more methods in VIFB or other papers.
 
 ## Compute color deviation metrics of fused images
 1. Put visible images and corresponding fused images into "/input/visible" and "/output/\<method name\>", respectively. The two paired images should be in the same shape and has the same name like "xxx.jpg". You can change codes in "color_deviation.py" to change the available image type.
