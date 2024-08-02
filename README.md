@@ -6,9 +6,13 @@ This is the Python implementation of the paper "FCDFusion: a fast, low color dev
 The paper is accepted by Computational Visual Media.
 
 # Method
-![Framework](figures/frame.png)
+![fig1](figures/frame.png)
+![fig2](figures/alg.png)
 
 # Results
+![fig3](figures/metric.png)
+![fig4](figures/light.png)
+![fig5](figures/shadow.png)
 
 # Environment
 numpy
