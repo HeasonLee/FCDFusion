@@ -49,9 +49,12 @@ Go into the directory "/FCDFusion":
 # Citation
 If you find the code helpful in your resarch or work, please cite the following paper.
 ```bibtex
-@article{FCDFusion,
-  author       = {Li, Hesong and Fu, Ying},
-  title        = {FCDFusion: a Fast, Low Color Deviation Method for Fusing Visible and Infrared Image Pairs},
-  journal      = {arXiv preprint arXiv:2408.01080},
-  year         = {2024},
+@article{Li2023FCDFusion,
+  title     = {FCDFusion: A fast, low color deviation method for fusing visible and infrared image pairs},
+  author    = {Hesong Li and Ying Fu},
+  journal   = {Computational Visual Media},
+  volume    = {11},
+  number    = {1},
+  pages     = {195--211},
+  year      = {2025},
 }
